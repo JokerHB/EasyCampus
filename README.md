@@ -13,20 +13,20 @@
 
 ## 使用说明
 经过测试，该程序支持在Windows/CentOS/Ubuntu/macOS下使用。此外，程序也支持在Python2/3环境下使用（需要先装好 requests, argparse 包）。
--配置模式
+- 配置模式
 在该模式下，我们可以将自己的上网账号存储在配置文件中，免去每次登录、登出时手动输入密码的步骤。该模式适合在自己常用的电脑上使用。具体用法：
-1. 输入配置， `python easycampus.py -config -u 帐号 -p 密码`
-2. 登录， `python easycampus.py -login`
-3. 登出， `python easycampus.py -logout` 
+    1. 输入配置， `python easycampus.py -config -u 帐号 -p 密码`
+    2. 登录， `python easycampus.py -login`
+    3. 登出， `python easycampus.py -logout` 
 
--直连模式
+- 直连模式
 在该模式下，每次登录、登出，我们都需要手动输入自己的上网账号与密码。该模式适合在临时使用的电脑上使用。具体用法：
-1. 登录， `python easycampus.py -login -u 账号 -p 密码`
-2. 登出， `python easycampus.py -logout -u 账号 -p 密码`
+    1. 登录， `python easycampus.py -login -u 账号 -p 密码`
+    2. 登出， `python easycampus.py -logout -u 账号 -p 密码`
 
 ## ToDo List
--[] 在线时长 查询功能
--[] 剩余流量 查询功能
--[] 余额 查询功能
--[] 当前IP 查询功能
+- [ ] 在线时长 查询功能
+- [ ] 剩余流量 查询功能
+- [ ] 余额 查询功能
+- [ ] 当前IP 查询功能
 
